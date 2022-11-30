@@ -69,7 +69,7 @@ fun App() {
         )
         Spacer(modifier = Modifier.height(56.dp))
         Image(
-            modifier = Modifiergit
+            modifier = Modifier
                 .size(250.dp, 160.dp)
                 .clip(RoundedCornerShape(10.dp))
                 .border(
