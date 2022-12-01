@@ -46,15 +46,6 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun App() {
-    TopAppBar(
-        backgroundColor = Color.DarkGray,
-        modifier = Modifier.fillMaxWidth()
-    ) {
-        Text(
-            text = "乾杯App",
-            color = Color.White,
-        )
-    }
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         modifier = Modifier
@@ -62,6 +53,7 @@ fun App() {
             .padding(16.dp),
         verticalArrangement = Arrangement.Center
     ) {
+
         Text(
             text = "日本",
             fontSize = 36.sp,
